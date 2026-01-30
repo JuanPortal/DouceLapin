@@ -79,6 +79,77 @@ section {
     justify-content: center;
 }
 
+.wrap {
+  width: 700px;
+  max-width: 80%;
+  min-height: 85vh;
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* INICIO */
+
+.inicio {
+  text-align: center;
+}
+
+.inicio img {
+  width: 100%;
+}
+
+/* CARTA */
+
+.carta .wrap {
+  border: 2px solid red;
+}
+
+/* CONTACTO */
+
+.contacto .wrap {
+  height: 85vh;
+  gap: 40px;
+}
+
+.contacto .wrap img {
+  width: 60%;
+  border-radius: 20px;
+}
+
+.contacto .wrap .bio {
+  width: 60%;
+  text-align: center;
+}
+
+.contacto .wrap .socials {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+  gap: 20px;
+}
+
+.contacto .wrap .socials a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+  gap: 10px;
+  color: #000;
+  text-decoration: none;
+}
+
+.contacto .wrap .socials a .whatsapp {
+  color: #25d366;
+}
+
+.contacto .wrap .socials a .instagram {
+  color: #d62976;
+}
+
 /* RESPONSIVE */
 
 @media screen and (max-width: 1300px) {
@@ -92,13 +163,17 @@ section {
     position: absolute;
     top: 15vh;
     left: 0;
-    background-color: #768d452d;
+    background-color: #768d45;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     padding: 40px 0;
     transition: .2s ease-in-out;
     z-index: 100;
+  }
+
+  .links .link {
+    color: #fdfdf1;
   }
 
   .links.invisible {
