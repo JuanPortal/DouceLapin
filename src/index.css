@@ -109,7 +109,7 @@ section {
 /* CONTACTO */
 
 .contacto .wrap {
-  height: 85vh;
+  min-height: 85vh;
   gap: 40px;
 }
 
