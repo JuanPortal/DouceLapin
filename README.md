@@ -1,3 +1,3 @@
-# DouceLapin
+# Douce Lapin
 
-test
+Hosted on Netlify
